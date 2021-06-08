@@ -43,10 +43,6 @@ public class Lab5Ex2 {
 		 System.out.println("sdfghnfghbn");
 		 System.out.println("sjkfgh");
 		 System.out.println("sdfghnfghbn");
-		 System.out.println("sjkfgh");
-		 System.out.println("sdfghnfghbn");
-		 System.out.println("sjkfgh");
-		 System.out.println("sdfghnfghbn");
 		 
 		
 }
