@@ -74,6 +74,7 @@ public class Practice{
                 return false;
             }
     }
+
     
     private static void checkpower(int n) {
         // TODO Auto-generated method stub
@@ -89,23 +90,20 @@ public class Practice{
         else {
             System.out.println("number is not power of two");
         }
-            
-    
-    
+    }
+      
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("please enter number");
-        int n  = sc.nextInt();
-        checknumber(n);
-        checkpower(n);
-    
 
-    
+            Scanner sc = new Scanner(System.in);
+            System.out.println("please enter number");
+            int n  = sc.nextInt();
+            checknumber(n);
+            checkpower(n);
 
-
+        
     }
     
-}
+  
  
 ​​​
 

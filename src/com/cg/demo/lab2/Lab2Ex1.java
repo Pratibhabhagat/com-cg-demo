@@ -43,7 +43,7 @@ public class Lab2Ex1 {
 			arr1[i] = Sc.nextInt();
 		}
 		
-		getSecondSmallest(arr1 , size);
+		Lab2Ex1.getSecondSmallest(arr1 , size);
 	}
 	}
 

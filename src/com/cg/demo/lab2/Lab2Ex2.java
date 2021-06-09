@@ -35,7 +35,7 @@ public class Lab2Ex2 {
 				System.out.println("Please Enter String in the array at position" + i );
 				arr1[i] = Sc.next();
 			}
-			sortStrings(arr1 , size);
+			Lab2Ex2.sortStrings(arr1 , size);
 		}
 	}
 

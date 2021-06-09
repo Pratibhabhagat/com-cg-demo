@@ -52,6 +52,6 @@ public static void main(String[] args) {
 		System.out.println("Please Enter elements in the array ");
 		arr1[i] = Sc.nextInt();
 	}
-	getSorted(arr1,size);
+	Lab2Ex3.getSorted(arr1,size);
 }
 }

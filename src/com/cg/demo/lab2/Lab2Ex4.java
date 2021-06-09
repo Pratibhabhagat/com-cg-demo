@@ -58,7 +58,7 @@ public static void main(String[] args) {
 			arr1[i] = Sc.nextInt();
 		}
 		System.out.println("Duplicate removes array: ");
-		modifyArray(arr1,size);
-		sortArr(arr1,size);
+		Lab2Ex4.modifyArray(arr1,size);
+		Lab2Ex4.sortArr(arr1,size);
 }
 }
