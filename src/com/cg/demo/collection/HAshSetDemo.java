@@ -18,13 +18,13 @@ public class HAshSetDemo {
 		System.out.println("List" + obj1); //allow duplicate
 		System.out.println("set : " + obj2); //doesnot allow duplicate
 		
-//		Set<Integer> mySet = new HashSet<>();
-//		
-//		mySet.add(50);
-//		mySet.add(40);
-//		mySet.add(30);
-//		mySet.add(50);
-//		
-//		System.out.println(mySet);
+		Set<Integer> mySet = new HashSet<>();
+		
+		mySet.add(50);
+		mySet.add(40);
+		mySet.add(30);
+		mySet.add(50);
+		
+		System.out.println(mySet);
 	}
 }

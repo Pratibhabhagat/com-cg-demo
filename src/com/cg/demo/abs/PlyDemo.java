@@ -23,40 +23,40 @@ package com.cg.demo.abs;
 
 public class PlyDemo {
 
-	static int add(int i, int j) {
+//	static int add(int i, int j) {
+//		return i + j;
+//	}
+//	
+//	static int add(int i, int j,int k) {
+//		return i + j + k;
+//	}
+	
+	int add(int i, int j,int k,int l) {
+		return i + j + k + l;
+	}
+	
+	int add(int i, byte j) {
 		return i + j;
 	}
 	
-	static int add(int i, int j,int k) {
-		return i + j + k;
+	float add(byte i, int j) {
+		return i + j;
 	}
-	
-//	int add(int i, int j,int k,int l) {
-//		return i + j + k + l;
-//	}
-//	
-//	int add(int i, byte j) {
-//		return i + j;
-//	}
-//	
-//	int add(byte i, int j) {
-//		return i + j;
-//	}
 	
 	public static void main(String[] args) {
 		
-//		PlyDemo obj= new PlyDemo();
-//		System.out.println(obj.add(5, 6));  //non static method invoked by object
-//		System.out.println(obj.add(5, 6 ,3));
-//		System.out.println(obj.add(5, 6 , 4, 3));
-//		byte arg1=10;
-//		int arg2=20;
-//		System.out.println(obj.add(arg1,arg2));
-//		System.out.println(obj.add(arg2,arg1));
-//		
-//		System.out.println(obj.m1());
+		PlyDemo obj= new PlyDemo();
+		//System.out.println(obj.add(5, 6));  //non static method invoked by object
+		//System.out.println(obj.add(5, 6 ,3));
+		System.out.println(obj.add(5, 6 , 4, 3));
+		byte arg1=10;
+		int arg2=20;
+		System.out.println(obj.add(arg1,arg2));
+		System.out.println(obj.add(arg2,arg1));
 		
-		System.out.println(add(5 ,6)); //static method should  be invoked by directly
-		System.out.println(add(8, 6, 4));
+		//System.out.println(obj.m1());
+		
+//		System.out.println(add(5 ,6)); //static method should  be invoked through class
+//		System.out.println(add(8, 6, 4));
 	}
 }

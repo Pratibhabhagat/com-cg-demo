@@ -35,7 +35,7 @@ class Child extends Parent {
 
 	public Child() {
 		super();//optional
-		System.out.println("Child construvtor");
+		System.out.println("Child constructor");
 	}
 
 	public Child(int num) {

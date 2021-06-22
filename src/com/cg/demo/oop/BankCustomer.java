@@ -8,11 +8,11 @@ package com.cg.demo.oop;
 
 import java.awt.Checkbox;
 
-//method definition
-public class BankCustomer //method signature
-{
+
+public class BankCustomer {
+
 	//static field
-    static int ifsc=1234; //method body
+    static int ifsc=1234; 
     
     //non static field
     int acNo;
@@ -20,8 +20,9 @@ public class BankCustomer //method signature
     double balance;
 
     //non static context
-    void checkBalance() {
-        System.out.println(balance);
+    //method signature
+    void checkBalance() {//method definition
+        System.out.println(balance); //method body
     }
 
     //static context
@@ -40,9 +41,9 @@ public class BankCustomer //method signature
         c1.checkBalance();  //method call/invocation(valid)
        // CheckBalance(); (not valid)
         //System.out.println(c1.balance);
-        openAccount();
+        BankCustomer.openAccount();
         System.out.println(ifsc);
-        System.out.println(c1.ifsc);
+        //System.out.println(c1.ifsc);
  
 
     }

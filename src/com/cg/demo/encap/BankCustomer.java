@@ -1,7 +1,5 @@
 package com.cg.demo.encap;
 
-
-
 public class BankCustomer {
 
 	private double balance;
@@ -19,3 +17,5 @@ public class BankCustomer {
 		return balance;
 	}
 }
+
+

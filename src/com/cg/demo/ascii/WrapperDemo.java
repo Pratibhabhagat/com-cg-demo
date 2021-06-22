@@ -7,10 +7,10 @@ public class WrapperDemo {
 
 //		String name="patu";
 //		int num =12;
-//		
-//		Integer num2=12;//wrapper class
-//		System.out.println(num2.toString());
-//		
+	
+		Integer num2=12;//wrapper class
+		System.out.println(num2.toString());
+	
 //		System.out.println(Integer.MAX_VALUE);
 		
 		WrapperDemo obj = new WrapperDemo();

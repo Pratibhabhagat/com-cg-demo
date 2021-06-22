@@ -16,6 +16,7 @@ public class PriorityQueueDemo {
 			obj2.add("A" + j);
 		}
 		System.out.println(obj1);
+		System.out.println(obj2);
 		System.out.println(obj1.remove());
 		System.out.println(obj1.poll());
 		

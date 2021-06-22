@@ -9,7 +9,7 @@ public class App {
 		System.out.println(ch + i);//107
 		
 		String name="Patu";
-		System.out.println(name);
+		System.out.println(name + i);
 
 	}
 

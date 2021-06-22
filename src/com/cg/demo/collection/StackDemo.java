@@ -16,7 +16,7 @@ public class StackDemo {
 		System.out.println("Remove the element from stack is " + s1.pop());
 		System.out.println("Stack element after removal " + s1);
 		
-		System.out.println("check 65 elemet in stack " + s1.search(65));
+		System.out.println("check 65 elemet in stack " + s1.search(15));//true=1/false=-1
 		
 	}
 }

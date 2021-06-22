@@ -3,6 +3,7 @@ package com.cg.demo.lambda;
 public class LambdaDemo {
 
 	// 1. by implementing the interface  
+	
 	//public class LambdaDemo implements MyInt {
 //		public static void main(String[] args) {
 //			LambdaDemo obj = new LambdaDemo();
@@ -17,7 +18,7 @@ public class LambdaDemo {
 	// 2. by anonymous inner class 
 	
 		public static void main(String[] args) {
-			MyInt obj = new MyInt() {
+			MyInt obj = new MyInt() { //create object of interface
 				@Override
 				public void absMethod() {
 					System.out.println("absMethod");

@@ -23,7 +23,7 @@ public class App {
 		obj.id=2334;
 		obj.name="asdff";
 		obj.salary=5244.5522;
-		// TODO Auto-generated method stub
+		
 		System.out.println(obj.id + " " + obj.name + " " + obj.salary);
 		
 		obj.work();

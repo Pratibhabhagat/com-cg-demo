@@ -1,7 +1,5 @@
 package com.cg.demo.oop;
 
-
-
 class Test {
 	
 	int k;
@@ -18,7 +16,6 @@ class Test {
 		System.out.println("String default value = "+ p);
 	}
 }
-
 
 public class DefaultValuesOfDataType {
 	public static void main(String argv[]) {

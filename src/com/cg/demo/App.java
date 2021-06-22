@@ -1,4 +1,5 @@
 
+
 package com.cg.demo;
 
 import java.util.Scanner;
@@ -12,11 +13,11 @@ public class App {
 		int num = sc.nextInt();
 		System.out.println(num);
 		
-		System.out.println("Please Enter the integer value- ");
+		System.out.println("Please Enter the double value- ");
 		double num2 = sc.nextDouble();
 		System.out.println(num2);
 		
-		System.out.println("Please Enter the integer value- ");
+		System.out.println("Please Enter the string- ");
 		String name = sc.next();
 		System.out.println(name);
 			}

@@ -1,20 +1,17 @@
 package com.cg.demo.oop;
 
 public class BlockDemo {
-	
-	
 
 	public static void main(String[] args) {
 		
 		BlockDemo obj = new BlockDemo();
 		BlockDemo obj1 = new BlockDemo();
 		BlockDemo obj2 = new BlockDemo();
-		
+	
 		System.out.println("something..");
 		BlockDemo.m1();
 		
-
-	}
+ }
 	static {
 		System.out.println("static Block");
 	}
@@ -34,7 +31,4 @@ public class BlockDemo {
 	static void m1() {
 		System.out.println("m1");
 	}
-	
-	
-
 }

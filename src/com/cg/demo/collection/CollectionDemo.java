@@ -9,14 +9,14 @@ public class CollectionDemo {
 		
 		//ArrayList
 		
-//		ArrayList myList = new ArrayList(); //un type safe
-//		System.out.println(myList.size());
-//		myList.add(10);
-//		myList.add(10.54);
-//		myList.add("dfgh");
-//		
-//		System.out.println(myList.size());
-//		System.out.println(myList);
+		ArrayList myList = new ArrayList(); //un type safe
+		System.out.println(myList.size());
+		myList.add(10);
+		myList.add(10.54);
+		myList.add("dfgh");
+		
+		System.out.println(myList.size());
+		System.out.println(myList);
 		
 		//LnkedList
 		LinkedList lList = new LinkedList();

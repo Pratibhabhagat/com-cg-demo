@@ -1,13 +1,12 @@
 package com.cg.demo.lab5;
 
+//Validate the age of a person and display proper message by using user defined exception.
+//Age of a person should be above 15.
+
 import java.util.Scanner;
 
 class AgeException extends Exception{
 	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 
 	public AgeException(String str) {
 		  System.out.println(str);

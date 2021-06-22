@@ -6,7 +6,6 @@ class Abc{
 }
 
 public class VarDemo {
-
 	
 	int num;
 	static int num2;
@@ -14,6 +13,7 @@ public class VarDemo {
 	void m1() {
 		int num3;
 	}
+	
 	public static void main(String[] args) {
 		int num4=10;
 		System.out.println(num4);

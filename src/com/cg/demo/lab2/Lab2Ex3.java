@@ -1,6 +1,6 @@
 package com.cg.demo.lab2;
 
-////Create a method which accepts an integer array, 
+//Create a method which accepts an integer array, 
 //reverse the numbers in the array and returns the resulting array in sorted order
 
 import java.util.Scanner;

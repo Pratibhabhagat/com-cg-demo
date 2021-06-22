@@ -1,5 +1,10 @@
 package com.cg.demo.lab2;
 
+//Create a method that can accept an array of String objects and sort in alphabetical order.
+//The elements in the left half should be completely in uppercase and the elements in the right half
+//should be completely in lower case. Return the resulting array.
+//Note: If there are odd  number of String objects, then (n/2) +1 elements should be in UPPPERCASE
+
 
 import java.util.Scanner;
 
@@ -16,10 +21,10 @@ public class Lab2Ex2 {
 					}
 				}
 			}
-			for(int k = 0 ; k < n/2 ; k++ ) {
+			for(int k = 0 ; k < (n/2)+1 ; k++ ) {
 				System.out.println(arr[k].toUpperCase());
 			}
-			for(int k = n/2 ; k < n ; k++ ) {
+			for(int k = (n/2)+1 ; k < n ; k++ ) {
 				System.out.println(arr[k].toLowerCase());
 			}
 		}

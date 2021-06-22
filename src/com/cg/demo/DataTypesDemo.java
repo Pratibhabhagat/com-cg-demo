@@ -26,7 +26,7 @@ public class DataTypesDemo {
         System.out.println(num2);
         
         double d1 = Double.MAX_VALUE;
-        double d2 = Double.MAX_VALUE;
+        double d2 = Double.MIN_VALUE;
         System.out.println(d1);
         System.out.println(d2);
         

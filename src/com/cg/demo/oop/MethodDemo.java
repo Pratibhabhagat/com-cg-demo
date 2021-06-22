@@ -13,9 +13,9 @@ public class MethodDemo {
 	
 	
 	public static void main(String[] args) {
-		addTwoNumber(5,5);
+		MethodDemo.addTwoNumber(5,5);
 		
-		someMethod();
+		MethodDemo.someMethod();
 
 
 
