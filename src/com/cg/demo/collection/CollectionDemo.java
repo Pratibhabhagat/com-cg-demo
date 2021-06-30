@@ -1,6 +1,5 @@
 package com.cg.demo.collection;
 
-
 import java.util.*;
 
 public class CollectionDemo {

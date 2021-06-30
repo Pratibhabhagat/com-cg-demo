@@ -5,8 +5,6 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.Stream;
 
-
-
 public class App {
 
 	public static void main(String[] args) {
@@ -22,13 +20,14 @@ public class App {
 
 //		iterate - for loop, for each, iterator  
 
-//		empList.forEach(emp -> System.out.println(emp.toString()));
+		empList.forEach(emp -> System.out.println(emp.toString()));
 
-//		Stream<Employee> empStream = empList.stream();
-//		Stream<Employee> empWithMoreSal = empStream.filter((e) -> e.salary > 15000);
-//		empWithMoreSal.forEach(em -> System.out.println(em.toString()));
+		Stream<Employee> empStream = empList.stream();
+		Stream<Employee> empWithMoreSal = empStream.filter((e) -> e.salary > 15000);
+		empWithMoreSal.forEach(em -> System.out.println(em.toString()));
 
-		//empList.stream().filter((e) -> e.salary > 15000).forEach(em -> System.out.println(em.toString()));
+		empList.stream().filter((e) -> e.salary > 15000).forEach(em -> 
+		System.out.println(em.toString()));
 
 		//empList.stream().limit(3).forEach(em -> System.out.println(em.toString()));
 	
@@ -38,7 +37,8 @@ public class App {
 		
 		//empList.stream().skip(3).forEach(em -> System.out.println(em.toString()));
 		
-		//empList.stream().map((e) -> e.name.toUpperCase()).forEach(emp -> System.out.println(emp.toString()));
+		//empList.stream().map((e) -> e.name.toUpperCase()).forEach(emp ->
+		//System.out.println(emp.toString()));
 	
 	//	empList.stream().collect(collector.)
 		

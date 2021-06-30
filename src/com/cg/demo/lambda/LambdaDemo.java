@@ -17,16 +17,16 @@ public class LambdaDemo {
 
 	// 2. by anonymous inner class 
 	
-		public static void main(String[] args) {
-			MyInt obj = new MyInt() { //create object of interface
-				@Override
-				public void absMethod() {
-					System.out.println("absMethod");
-				}
-			};
-			obj.absMethod();
-		}
-	}
+//		public static void main(String[] args) {
+//			MyInt obj = new MyInt() { //create object of interface
+//				@Override
+//				public void absMethod() {
+//					System.out.println("absMethod");
+//				}
+//			};
+//			obj.absMethod();
+//		}
+	
 
 	
 	// 3. by lambda expression () -> {}  
@@ -39,5 +39,25 @@ public class LambdaDemo {
 //		obj.absMethod(10);
 //	}
 //	
+
+public static void main(String[] args) {
+	MyInt obj = (int i) -> {
+		System.out.println("lambda : " + i);
+	};
+	obj.absMethod(50);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
